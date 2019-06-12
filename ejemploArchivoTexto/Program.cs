@@ -50,7 +50,7 @@ namespace ejemploArchivoTexto
             }
             
 
-            // Ejemplo #4: Anexar nuevo texto a un archivo de texto existente.
+            // Ejemplo #4: Anexa (Append) nuevo texto a un archivo de texto existente.
 
             // La instrucción using automaticamente vacia el buffer, cierra el stream y llama al método IDisposable.Dispose sobre el objeto stream object
             using (StreamWriter file = new StreamWriter(directorio + "archivoLineasDeTexto2.txt", true))
